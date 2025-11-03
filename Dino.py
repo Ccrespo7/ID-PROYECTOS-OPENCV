@@ -5,7 +5,7 @@ import time # Biblioteca para manejo de tiempo
 import pyautogui # Biblioteca para control de teclado
 
 # Inicializar la cámara
-camara = cv2.VideoCapture(1)
+camara = cv2.VideoCapture(1) # 0 para DroidCam / 1 para Interna
 camara.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
 camara.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
 camara.set(cv2.CAP_PROP_FPS, 60)
